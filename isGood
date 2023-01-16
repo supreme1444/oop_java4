@@ -1,0 +1,7 @@
+package Java3;
+
+public interface isGood<T> {
+    boolean isGood (T item);
+
+    
+}
