@@ -1,0 +1,28 @@
+package Java3;
+
+
+public class Main1 {
+    public static void main(String[] args) {
+    isEven<Integer>ev=new isEven<Integer>();
+    isPositive<Integer> po = new isPositive<>();
+    beginsA<String>be = new beginsA<>();
+    beginsWith<String>be1= new beginsWith<>("Nano");
+    filter(ev,po,be,be1);
+    System.out.println(ev.isGood(3));
+    System.out.println(po.isGood(-100));
+    System.out.println(be.isGood("Atom"));
+    System.out.println(be1.isGood("Nano"));
+
+}
+
+    public static void filter(isEven<Integer> ev, isPositive<Integer> po, beginsA<String> be, beginsWith<String> be1){
+    if(ev.isGood(4) == true)
+    if(po.isGood(100)== true)
+    if(be.isGood("Atom")== true)
+    if(be1.isGood("eano")== true)
+    System.out.println("IsGood(True)");
+    System.out.println("IsGood(True)");
+    System.out.println("IsGood(True)");
+    System.out.println("IsGood(True)");
+}
+}
