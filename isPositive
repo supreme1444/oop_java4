@@ -1,0 +1,13 @@
+package Java3;
+
+public class isPositive<T> implements isGood<T> {
+
+    @Override
+    public boolean isGood(T item) {
+        if((Integer)item>0){
+
+        return true;
+    }
+    return false;
+  }
+}
