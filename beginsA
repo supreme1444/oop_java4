@@ -1,0 +1,18 @@
+package Java3;
+
+public class beginsA<T> implements isGood<T> {
+
+    @Override
+    public boolean isGood(T strok) {
+        String s = (String) strok;
+
+        Character strok1 = s.charAt(0);
+        char condition = 'A';
+        if (strok1 == condition) {
+            return true;
+        }
+
+        return false;
+    }
+
+}
