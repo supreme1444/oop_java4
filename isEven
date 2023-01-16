@@ -1,0 +1,15 @@
+package Java3;
+
+public class isEven<T> implements isGood<T> {
+  @Override
+  public boolean isGood(T number) {
+
+    if ((Integer) number % 2 == 0)
+
+    {
+      return true;
+    }
+
+    return false;
+  }
+}
