@@ -1,0 +1,17 @@
+package Java3;
+
+public class beginsWith<T> implements isGood<T> {
+    String str = "Nano";
+
+    public beginsWith(String str) {
+        this.str = str;
+    }
+
+    @Override
+    public boolean isGood(T item) {
+        if (item == str) {
+            return true;
+        }
+        return false;
+    }
+}
